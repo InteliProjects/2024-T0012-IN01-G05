@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"> <!--defini o idioma da pagina-->
+
+<head>
+    <meta charset="UTF-8"> <!-- Identificação de caracter usando no game -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Identificador de navegador usado-->
+
+    <title>UniBoarding</title> <!-- Título da aba -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        /* design em css*/
+        /* centraliza a imagem*/
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        @font-face {
+            font-family: 'adventure';
+            src: url('./assets/Adventurer.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'adventure', sans-serif;
+        }
+    </style>
+
+    <script src="./src/phaser.js"></script> <!-- executa o phaser no site-->
+</head>
+
+<body>
+     
+    <script type = 'module' src='./src/main.js'></script> <!-- executa o código do game no site -->
+    <!-- <script src="//cdn.jsdelivr.net/npm/phaser@3.6.0/dist/phaser.min.js"></script> -->
+
+</body>
+
+</html>
